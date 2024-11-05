@@ -2,12 +2,6 @@
 ## 🔎 Overview
 In this end-to-end machine learning project, I developed a predictive model for student mathematics performance. After evaluating multiple regression algorithms, Linear Regression emerged as the optimal choice for this prediction task. The model achieved 📈 87.97% accuracy on the test dataset. The training data encompasses comprehensive student records including academic scores, demographic factors, and educational background metrics.
 
-The project utilized:
-
-📊 1001 student records for training and testing
-🔍 Feature engineering for both categorical and numerical variables
-🛠️ Standardization and one-hot encoding preprocessing
-📋 80-20 train-test split for model validation
 ## 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/python-3.8.0-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.0.3-green)
@@ -18,9 +12,11 @@ The project utilized:
 ![XGBoost](https://img.shields.io/badge/xgboost-2.1.2-purple)
 ![AWS](https://img.shields.io/badge/AWS-ElasticBeanstalk-orange)
 
+
 ## 🌐 Live Demo
 The application is deployed and accessible at:
 [Student Performance Predictor](http://studentmathgrade-env-1.eba-qhcwims9.eu-central-1.elasticbeanstalk.com/)
+
 
 ## 📂 Folder Structure
 • 🖥️ UI: This contains UI website code
@@ -40,12 +36,12 @@ The application is deployed and accessible at:
 - dill==0.3.9
 - Flask==3.0.3
 
-- **Deployment:** AWS Elastic Beanstalk
+ **Deployment:** AWS Elastic Beanstalk
 
 
 ### 🚀 Installation & Setup
 1. Environment Setup
-# Create conda environment
+#### Create conda environment
 conda create -p venv python==3.8.0 -y
 
 ### Activate environment
