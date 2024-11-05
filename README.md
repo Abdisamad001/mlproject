@@ -39,7 +39,7 @@ The application is deployed and accessible at:
 ## 🛠️ Tech Stack
 - **Python** 3.8.0
 - **Web Framework:** Flask 3.0.3
-- **ML Libraries:**
+- **📚 Required Libraries**
   - scikit-learn 1.3.2
   - pandas 2.0.3
   - numpy 1.24.4
