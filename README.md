@@ -40,20 +40,20 @@ The application is deployed and accessible at:
 
 
 ### 🚀 Installation & Setup
-1. Environment Setup
-#### Create conda environment
+#### 1. Environment Setup
+##### Create conda environment
 conda create -p venv python==3.8.0 -y
 
-### ⚡ Activate environment
+##### ⚡ Activate environment
  conda activate ./venv
 
-2. Clone Repository:
+#### 2. Clone Repository:
 git clone https://github.com/Abdisamad001/mlproject.git
 
-3. Install Dependencies
+#### 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Run Application
+#### 4. Run Application
 python app.py
 
 🔄 Model Pipeline
