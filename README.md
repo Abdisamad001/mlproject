@@ -69,6 +69,7 @@ conda activate ./venv
 
 ### 2. Clone Repository
 git clone https://github.com/Abdisamad001/mlproject.git
+```bash
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
