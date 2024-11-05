@@ -19,6 +19,10 @@ The project utilized:
 ![XGBoost](https://img.shields.io/badge/xgboost-2.1.2-purple)
 ![AWS](https://img.shields.io/badge/AWS-ElasticBeanstalk-orange)
 
+## 🌐 Live Demo
+The application is deployed and accessible at:
+[Student Performance Predictor](http://studentmathgrade-env-1.eba-qhcwims9.eu-central-1.elasticbeanstalk.com/)
+
 ## 📂 Folder Structure
 
 • 🖥️ UI: This contains UI website code
@@ -63,13 +67,13 @@ conda create -p venv python==3.8.0 -y
 # Activate environment
 conda activate ./venv
 
-2. Clone Repository
+### 2. Clone Repository
 git clone https://github.com/Abdisamad001/mlproject.git
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-🔄 Model Pipeline
+### 🔄 Model Pipeline
 Data Ingestion 📥
 Load and split data into train and test sets
 
