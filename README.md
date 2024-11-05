@@ -36,16 +36,18 @@ The application is deployed and accessible at:
 - 🔄 Advanced ML pipeline with multiple models
 - 🤖 Automated data preprocessing
 
-## 🛠️ Tech Stack
-- **Python** 3.8.0
-- **Web Framework:** Flask 3.0.3
-- **📚 Required Libraries**
-  - scikit-learn 1.3.2
-  - pandas 2.0.3
-  - numpy 1.24.4
-  - catboost 1.2.7
-  - xgboost 2.1.2
-- **Deployment:** AWS Elastic Beanstalk
+## 📚 Required Libraries
+- pandas 2.0.3
+- numpy 1.24.4
+- seaborn 0.13.2
+- matplotlib 3.7.5
+- scikit-learn 1.3.2
+- catboost 1.2.7
+- xgboost 2.1.2
+- dill 0.3.9
+- Flask 3.0.3
+    
+**Deployment:** AWS Elastic Beanstalk
 
 ## 📂 Project Structure
 ```python
@@ -64,7 +66,7 @@ MLPROJECT/
 │   │   ├── data_ingestion.py
 │   │   ├── data_transformation.py
 │   │   └── model_trainer.py
-│   ├── pipelines/      # Prediction pipeline
+│   ├── pipelines/      
 │   │   ├── __init__.py
 │   │   ├── predict_pipeline.py
 │   │   └── training_pipeline.py
@@ -86,23 +88,21 @@ MLPROJECT/
 └── setup.py
 
 🚀 Installation & Setup
-1. Environment Setup```bash
-Create conda environment
+1. Environment Setup
+# Create conda environment
 conda create -p venv python==3.8.0 -y
 
-Activate environment
-conda activate ./venv```
+# Activate environment
+conda activate ./venv
 
 2. Clone Repository
-git clone https://github.com/Abdisamad001/mlproject.git```
+git clone https://github.com/Abdisamad001/mlproject.git
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt```
+3. Install Dependencies
+pip install -r requirements.txt
 
-### 4. Run Application
-```bash
-python application.py
+4. Run Application
+python app.py
 
 🔄 Model Pipeline
 Data Ingestion 📥 - Load and split data into train and test sets
@@ -127,5 +127,3 @@ Abdisamad Omar
 🐱 GitHub: @Abdisamad001
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
-
-
