@@ -60,21 +60,21 @@ The application is deployed and accessible at:
 ## 🚀 Installation & Setup
 
 ### 1. Environment Setup
-```bash
 # Create conda environment
 conda create -p venv python==3.8.0 -y
 
 # Activate environment
 conda activate ./venv
 
+
 ### 2. Clone Repository
 git clone https://github.com/Abdisamad001/mlproject.git
-```bash
+
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
-### 🔄 Model Pipeline
+### 4. 🔄 Model Pipeline
 Data Ingestion 📥
 Load and split data into train and test sets
 
