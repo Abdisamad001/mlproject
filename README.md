@@ -19,9 +19,26 @@ The project utilized:
 ![XGBoost](https://img.shields.io/badge/xgboost-2.1.2-purple)
 ![AWS](https://img.shields.io/badge/AWS-ElasticBeanstalk-orange)
 
-## 🌐 Live Demo
-The application is deployed and accessible at:
-[Student Performance Predictor](http://studentmathgrade-env-1.eba-qhcwims9.eu-central-1.elasticbeanstalk.com/)
+## 📂 Folder Structure
+
+• 🖥️ UI: This contains UI website code
+
+• 🔧 server: Contains the Python Flask server-related code
+
+• 📊 model: Contains Python notebook for model building
+
+## 📚 Required Libraries
+• pandas 2.0.3
+• numpy 1.24.4
+• seaborn 0.13.2
+• matplotlib 3.7.5
+• scikit-learn 1.3.2
+• catboost 1.2.7
+• xgboost 2.1.2
+• dill 0.3.9
+• Flask 3.0.3
+
+**Deployment**: AWS Elastic Beanstalk
 
 ## ⭐ Features
 - 📊 Predicts mathematics scores based on:
@@ -36,59 +53,10 @@ The application is deployed and accessible at:
 - 🔄 Advanced ML pipeline with multiple models
 - 🤖 Automated data preprocessing
 
-## 📚 Required Libraries
-- pandas 2.0.3
-- numpy 1.24.4
-- seaborn 0.13.2
-- matplotlib 3.7.5
-- scikit-learn 1.3.2
-- catboost 1.2.7
-- xgboost 2.1.2
-- dill 0.3.9
-- Flask 3.0.3
-    
-**Deployment:** AWS Elastic Beanstalk
-
-## 📂 Project Structure
-```python
-MLPROJECT/
-├── .ebextensions/         
-│   └── python.config
-├── .vscode/              
-├── artifacts/            
-├── catboost_info/        
-├── logs/                
-├── mlproject.egg-info/  
-├── notebook/             
-├── src/                 
-│   ├── components/      
-│   │   ├── __init__.py
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
-│   ├── pipelines/      
-│   │   ├── __init__.py
-│   │   ├── predict_pipeline.py
-│   │   └── training_pipeline.py
-│   ├── __init__.py
-│   ├── exception.py    
-│   ├── logger.py     
-│   └── utils.py      
-├── templates/         
-│   ├── index.html   
-│   └── home.html    
-├── static/            
-│   └── images/      
-├── venv/             
-├── .gitignore      
-├── app.py           
-├── application.py 
-├── README.md       
-├── requirements.txt
-└── setup.py
-
 ## 🚀 Installation & Setup
-1. Environment Setup
+
+### 1. Environment Setup
+```bash
 # Create conda environment
 conda create -p venv python==3.8.0 -y
 
@@ -101,31 +69,24 @@ git clone https://github.com/Abdisamad001/mlproject.git
 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Run Application
-python app.py
+🔄 Model Pipeline
+Data Ingestion 📥
+Load and split data into train and test sets
 
-## 🔄 Model Pipeline
-Data Ingestion 📥 
 Data Transformation 🔄
-Handle missing values
-Feature scaling
-Categorical encoding
+• Handle missing values
+• Feature scaling
+• Categorical encoding
+
 Model Training 🎯
-Multiple regression models evaluated
-Hyperparameter tuning
-Best model selection
-
-## ☁️ Deployment
-The application is deployed on AWS Elastic Beanstalk:
-
-Region: EU Central 1
-Python Environment: 3.8.0
-Elastic Beanstalk Configuration in .ebextensions
+• Multiple regression models evaluated
+• Hyperparameter tuning
+• Best model selection
 
 👨‍💻 Author
 Abdisamad Omar
+• 📧 Email: abdisamad.oma@gmail.com
+• 🐱 GitHub: @Abdisamad001
 
-📧 Email: abdisamad.oma@gmail.com
-🐱 GitHub: @Abdisamad001
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
