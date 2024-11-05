@@ -85,9 +85,6 @@ MLPROJECT/
 ├── requirements.txt
 └── setup.py
 
-![image](https://github.com/user-attachments/assets/c7fe00c9-a3ed-4534-a401-c27f9ebfa270)
-![image](https://github.com/user-attachments/assets/1c475002-6ea5-4d16-8042-e717b2c16222)
-![image](https://github.com/user-attachments/assets/c4bfa51f-255d-42b6-9cee-75a1b68d16bf)
 🚀 Installation & Setup
 1. Environment Setup```bash
 Create conda environment
