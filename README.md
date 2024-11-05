@@ -44,7 +44,7 @@ The application is deployed and accessible at:
 #### Create conda environment
 conda create -p venv python==3.8.0 -y
 
-### Activate environment
+### ⚡ Activate environment
  conda activate ./venv
 
 2. Clone Repository:
