@@ -87,7 +87,7 @@ MLPROJECT/
 ├── requirements.txt
 └── setup.py
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 1. Environment Setup
 # Create conda environment
 conda create -p venv python==3.8.0 -y
@@ -104,8 +104,8 @@ pip install -r requirements.txt
 4. Run Application
 python app.py
 
-🔄 Model Pipeline
-Data Ingestion 📥 - Load and split data into train and test sets
+## 🔄 Model Pipeline
+Data Ingestion 📥 
 Data Transformation 🔄
 Handle missing values
 Feature scaling
@@ -114,12 +114,14 @@ Model Training 🎯
 Multiple regression models evaluated
 Hyperparameter tuning
 Best model selection
-☁️ Deployment
+
+## ☁️ Deployment
 The application is deployed on AWS Elastic Beanstalk:
 
 Region: EU Central 1
 Python Environment: 3.8.0
 Elastic Beanstalk Configuration in .ebextensions
+
 👨‍💻 Author
 Abdisamad Omar
 
