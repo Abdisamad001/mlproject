@@ -80,10 +80,11 @@ Model Training 🎯
 Multiple regression models evaluated
 Hyperparameter tuning
 Best model selection
-👨‍💻 Author
-Abdisamad Omar
 
+
+👨‍💻 Author
+Abdisamad Omar.
+Contact: 
 📧 Email: abdisamad.oma@gmail.com
 🐱 GitHub: @Abdisamad001
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details
+📄 License: This project is licensed under the MIT License - see the LICENSE file for details
