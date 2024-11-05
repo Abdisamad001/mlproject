@@ -1,10 +1,10 @@
-🎓 Student Performance Prediction System
-🔎 Overview
+# 🎓 Student Performance Prediction System
+## 🔎 Overview
 In this end-to-end machine learning project, I developed a predictive model for student mathematics performance. After evaluating multiple regression algorithms, Linear Regression emerged as the optimal choice for this prediction task. The model achieved 📈 87.97% accuracy on the test dataset. The training data encompasses comprehensive student records including academic scores, demographic factors, and educational background metrics.
 
 The project utilized:
 
-📊 1000 student records for training and testing
+📊 1001 student records for training and testing
 🔍 Feature engineering for both categorical and numerical variables
 🛠️ Standardization and one-hot encoding preprocessing
 📋 80-20 train-test split for model validation
@@ -83,8 +83,9 @@ Best model selection
 
 
 👨‍💻 Author
-Abdisamad Omar.
-Contact: 
+Abdisamad Omar
+
 📧 Email: abdisamad.oma@gmail.com
 🐱 GitHub: @Abdisamad001
-📄 License: This project is licensed under the MIT License - see the LICENSE file for details
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details
