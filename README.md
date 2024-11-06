@@ -1,6 +1,6 @@
 # 🎓 Student Performance Prediction System
 ## 🔎 Overview
-In this end-to-end machine learning project, I developed a predictive model for student mathematics performance. After evaluating multiple regression algorithms, Linear Regression emerged as the optimal choice for this prediction task. The model achieved 📈 87.97% accuracy on the test dataset. The training data encompasses comprehensive student records including academic scores, demographic factors, and educational background metrics.
+In this end-to-end machine learning project, I developed a predictive model for student mathematics performance. After evaluating multiple regression algorithms, Linear Regression emerged as the optimal choice for this prediction task. The model achieved 📈good accuracy on the test dataset. The training data encompasses comprehensive student records including academic scores, demographic factors, and educational background metrics.
 
 ## 🛠️ Tech Stack
 ![Python](https://img.shields.io/badge/python-3.8.0-blue)
