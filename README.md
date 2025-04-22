@@ -75,5 +75,4 @@ Best model selection
 
 📧 Email: abdisamad.oma@gmail.com
 🐱 GitHub: @Abdisamad001
-#### 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details
+
