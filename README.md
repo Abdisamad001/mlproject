@@ -26,15 +26,15 @@ The application is deployed and accessible at:
 • 📊 model: Contains Python notebook for model building
 
 ## 📚 Required Libraries
-`- pandas==2.0.31`
-`- numpy==1.24.4`
-`- seaborn==0.13.2`
-`- matplotlib==3.7.5`
-`- scikit-learn==1.3.2`
-`- catboost==1.2.7`
-`- xgboost==2.1.2`
-`- dill==0.3.9`
-`- Flask==3.0.3`
+- `pandas==2.0.31`
+- `numpy==1.24.4`
+- `seaborn==0.13.2`
+- `matplotlib==3.7.5`
+- `scikit-learn==1.3.2`
+-`catboost==1.2.7`
+- `xgboost==2.1.2`
+- `dill==0.3.9`
+- `Flask==3.0.3`
 
  **Deployment:** `AWS Elastic Beanstalk`
 
